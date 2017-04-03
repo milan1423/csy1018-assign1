@@ -80,7 +80,6 @@ header{
 
 .image img:hover {
     opacity: 1.0;
-    filter: alpha(opacity=100);
     transition: 2s;
     transform: scale(1.1,1.1);
   }
@@ -97,7 +96,7 @@ header{
 .cvsection{
   background-image: url(../image/1.JPG);
   background-size: cover;
-  color: yellow;
+  color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -114,8 +113,10 @@ header{
   flex-direction: row;
 }
 .aboutme{
-  width: 50%;
+  width: 60%;
+  padding-left:10%;
 }
+
 .education{
   width: 50%;
 }
@@ -148,12 +149,25 @@ textarea{
   width: 80%;
 }
 .tel{
-  width: 50%;
+  width: 20%;
   padding: 20px;
   color: white;
 }
-footer{
+.foto{
+  width: 30%;
+  padding: 20px;
+}
+.foto img{
+  height: 80%;
+  width: 80%;
 
+}
+.bio{
+  background-image: url(../image/1.JPG);
+  background-size: cover;
+  height: 592px;
+}
+footer{
   color:#ffffff;
   background-color:#e8491d;
   width: 100%;
