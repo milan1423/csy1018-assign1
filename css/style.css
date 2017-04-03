@@ -28,11 +28,10 @@ header{
   height: 80px;
   width: 160px;
   display: block;
-  margin-left: 15%;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin: auto;
   border-radius: 20px;
   opacity: 0.7;
+  padding: 10px;
 
 }
 .nav{
@@ -40,15 +39,20 @@ header{
 }
 
 .nav ul{
-  display: inline;
+  display: flex;
+  flex-direction: row;
+
 
 }
 
 .nav ul li{
-  display: inline-block;
-  list-style-type: circle;
   color: white;
-   padding: 40px 30px 25px 20px;
+  list-style: none;
+  padding: 3% 4%;
+  padding-left: 30px;
+}
+.nav ul li:hover{
+  background: #e8491d;
 }
 
 .nav ul li a{
@@ -56,26 +60,21 @@ header{
   text-decoration: none;
   font-size: 1.255em;
 }
+
+
 .search{
   width: 30%;
 }
 .search input{
   width: 50%;
 }
-.search input:hover{
-
-}
 
 
-.homeblack:hover{
-  background-color: #e8491d;
-  padding-left: 5px;padding-right: 5px;
-  padding-top: 35px;padding-bottom: 20px;
-}
+
 .home{
   background-image: url(../image/1.JPG);
   background-size: cover;
-  height: 592px;
+  height: 590px;
   display: flex;
   flex-direction: row;
 }
@@ -97,7 +96,7 @@ header{
   }
 .main{
   width: 70%;
-  color:  yellow;
+  color:  white;
 }
 .main h2{text-align: center; padding-top: 40px;}
 .main h2:hover{
@@ -112,7 +111,7 @@ header{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 592px;
+  height: 599px;
 }
 .milan{
   text-align: center;
@@ -135,7 +134,7 @@ header{
 .contact{
   background-image: url(../image/1.JPG);
   background-size: cover;
-  height: 592px;
+  height: 599px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -181,7 +180,7 @@ textarea{
   background-image: url(../image/1.JPG);
   background-size: cover;
   width: 100%;
-  height: 592px;
+  height: 599px;
   display: flex;
   flex-direction: row;
   color: white;
@@ -216,13 +215,184 @@ textarea{
   opacity: 0.5;
 }
 
+
 footer{
   color:#ffffff;
   background-color:#e8491d;
   width: 100%;
-  padding-bottom: 15px;
-  padding-top: 10px;
-  opacity: 0.8;
-  flex-direction: row;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+.icon{
+  width: 35%;
+  padding: 8px;
+}
+.icon i{
+  font-size: 2.5em;
+  padding: 5px;
+}
+.fa-facebook-official{
+  color: rgb(51, 51, 255);
+}
+.fa-twitter-square{
+  color: rgb(102, 179, 255);
+}
+.fa-yahoo{
+  color: rgb(191, 128, 255);
+}
+.fa-google-plus-square{
+color: rgb(0, 128, 0);
+}
+.copy{
+  width: 70%;
+  text-align: center;
+  padding-top: 5px;
+}
+@media (max-width: 600px){
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 100%;
+}
+.nav{
+  width: 100%;
+}
+.nav ul{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.search{
+  width: 100%;
+}
+.search input{
+  width: 80%;
+  padding: 0%;
+}
+.home{
+  width: 100;
+  display: flex;
+  flex-direction: column;
+}
+.image{
+  width: 100%;
+}
+.image img{
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+.main{
+  width: 100%;
+}
+.main p{
+  padding: 15px;
+}
+.bio{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.description{
+  height: 60%;
+  width: 100%;
+}
+.description h1{ font-size: 2em;}
+.description p{
+  font-size: 1em;
+  padding: 6px;;
+}
+.bike{
+  height: 40%;
+  width: 100%;
+
+}
+.bike img{
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.cvsection{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.6em;
+}
+.milan{
+  width: 100%;
+}
+.milan h1{
+  font-size: 1em;
+}
+.cv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.aboutme{
+  width: 100%;
+  padding-left: 10px;
+
+}
+.education{
+  width: 100%;
+  padding-left: 10px;
+}
+
+.contact{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.form{
+  width: 100%;
+
+}
+form{
+  width: 100%;
+  padding-left: 10px;
+}
+label{
+  font-size: 1em;
+}
+textarea{
+  height: 100px;
+}
+.tel{
+  font-size: 1em;
+}
+.foto{
+  width: 100px;
+}
+.foto img{
+  height: 150px;
+  width: 150px;
+}
+
+
+
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+}
+.icon{
+
+  width: 100%;
+}
+.copy{
+  width: 100%;
+}
+.copy p{
+  font-size: 0.8em;
 }
