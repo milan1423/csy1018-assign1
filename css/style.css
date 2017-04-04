@@ -1,19 +1,14 @@
-
+/*
+Name: Milan Shrestha
+UN ID:16418532
+*/
 
 
 body{
   background-size: cover;
   margin: 0;
 }
- h6{
-  font-size: 1.200em;
-  font-weight: normal;
-  font-style: italic;
-  padding-left: 500px;
-  padding-right: 50px;
-  padding-bottom: 150px;
-  padding-top: 150px;
-}
+
 header{
   background:#35424a;
   color:#ffffff;
@@ -31,11 +26,11 @@ header{
   margin: auto;
   border-radius: 20px;
   opacity: 0.7;
-  padding: 10px;
+  padding: 5px;
 
 }
 .nav{
-  width:50%;
+  width:55%;
 }
 
 .nav ul{
@@ -48,11 +43,13 @@ header{
 .nav ul li{
   color: white;
   list-style: none;
-  padding: 3% 4%;
+  padding: 1% 3%;
+  padding-top: 18px;
   padding-left: 30px;
 }
 .nav ul li:hover{
   background: #e8491d;
+  padding-bottom: 15px;
 }
 
 .nav ul li a{
@@ -63,18 +60,37 @@ header{
 
 
 .search{
-  width: 30%;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
 }
-.search input{
-  width: 50%;
+.sea{
+  width: 80%;
+}
+.sea form{
+  width: 95%;
 }
 
+.searchicon{
+  padding-top: 22px;
+  width: 20%;
+  border-radius: 100px;
+}
+.searchicon input{
+ background: green;
+ border-radius: 20px;
+ color: white;
+ opacity: 0.5;
+}
+.searchicon input:hover{
+  opacity: 1;
+}
 
 
 .home{
   background-image: url(../image/1.JPG);
   background-size: cover;
-  height: 590px;
+  height: 596px;
   display: flex;
   flex-direction: row;
 }
@@ -111,7 +127,7 @@ header{
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 599px;
+  height: 596px;
 }
 .milan{
   text-align: center;
@@ -134,7 +150,7 @@ header{
 .contact{
   background-image: url(../image/1.JPG);
   background-size: cover;
-  height: 599px;
+  height: 596px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -180,7 +196,7 @@ textarea{
   background-image: url(../image/1.JPG);
   background-size: cover;
   width: 100%;
-  height: 599px;
+  height: 596px;
   display: flex;
   flex-direction: row;
   color: white;
@@ -263,16 +279,26 @@ header{
   width: 100%;
 }
 .nav ul{
-  padding-left: 10px;
+  padding-left: 1px;
   display: flex;
   flex-direction: column;
 }
+.nav ul li a{
+  font-size: 1em;
+}
 .search{
   width: 100%;
+  display: flex;
+  flex-direction: row;
 }
-.search input{
-  width: 80%;
-  padding: 0%;
+.sea{
+  width: 70%;
+}
+.sea input{
+  width: 90%;
+}
+.searchicon{
+  width: 30%;
 }
 .home{
   width: 100;
