@@ -94,7 +94,7 @@ header{
   display: flex;
   flex-direction: row;
 }
-.image{width: 30%;}
+.image{width: 40%;}
 .image img{
   height: 300px;
     width: 300px;
@@ -111,15 +111,23 @@ header{
     transform: scale(1.1,1.1);
   }
 .main{
-  width: 70%;
+  width: 40%;
   color:  white;
+  padding-top: 8%;
 }
-.main h2{text-align: center; padding-top: 40px;}
+.main h2{
+  text-align: center;
+   padding-top: 15px;
+   font-size: 2em;
+}
 .main h2:hover{
   transition: 4s;
   transform: scale(1.5,1.5);
 }
-.main p{text-align: justify; padding: 2%;}
+.main p{text-align: justify; padding: 5%;
+font-size: 1em;
+width: 100%;
+}
 .cvsection{
   background-image: url(../image/1.JPG);
   background-size: cover;
@@ -317,7 +325,8 @@ header{
   width: 100%;
 }
 .main p{
-  padding: 15px;
+  width: 250px;
+  padding: 10px;
 }
 .bio{
   width: 100%;
