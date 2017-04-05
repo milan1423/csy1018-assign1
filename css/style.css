@@ -5,28 +5,28 @@ UN ID:16418532
 
 
 body{
-  background-size: cover;
-  margin: 0;
+  background-size: cover;/*this is for bbody size to make body fit in the screen*/
+  margin: 0;/*it keeps margin of the body zero*/
 }
 
 header{
-  background:#35424a;
-  color:#ffffff;
-  border-bottom:#e8491d 3px solid;
-  display: flex;
-  flex-direction: row;
+  background:#35424a;/*this is for color of background and code is taken from colorhex.com*/
+  color:#ffffff;/*this is used to insert color*/
+  border-bottom:#e8491d 3px solid;/*it helps to make border at the bottom of header part*/
+  display: flex;/*this property makes parts inside the header*/
+  flex-direction: row;/*this keeps the content inside the header in a row*/
 }
 .logo{
-  width: 20%;
+  width: 20%;/*it gives width of the logo*/
 }
 .logo img{
-  height: 80px;
+  height: 80px;/*this property gives the height*/
   width: 160px;
   display: block;
-  margin: auto;
-  border-radius: 20px;
-  opacity: 0.7;
-  padding: 5px;
+  margin: auto;/*it keeps the margin auto*/
+  border-radius: 20px;/*this property is used to change the angles of the border*/
+  opacity: 0.7;/*this property helps us to changee transparancy*/
+  padding: 5px;/*sets the position of the contents inside the division*/
 
 }
 .nav{
@@ -34,7 +34,7 @@ header{
 }
 
 .nav ul{
-  display: flex;
+  display: flex;/*it seperates contents of that division*/
   flex-direction: row;
 
 
@@ -44,10 +44,10 @@ header{
   color: white;
   list-style: none;
   padding: 1% 3%;
-  padding-top: 18px;
-  padding-left: 30px;
+  padding-top: 18px;/*sets the position of top side of contents*/
+  padding-left: 30px;/*sets the position of left side of the content*/
 }
-.nav ul li:hover{
+.nav ul li:hover{/**/
   background: #e8491d;
   padding-bottom: 15px;
 }
@@ -88,7 +88,7 @@ header{
 
 
 .home{
-  background-image: url(../image/1.JPG);
+  background-image: url(../image/1.JPG);/*it inserts the photo in that section*/
   background-size: cover;
   height: 596px;
   display: flex;
@@ -133,13 +133,13 @@ width: 100%;
   background-size: cover;
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;/*ithis property keeps the content in the column form*/
   width: 100%;
   height: 596px;
 }
 .milan{
   text-align: center;
-  font-size: 2em;
+  font-size: 2em;/*it sets the size of the font*/
 }
 
 .cv{
@@ -219,7 +219,7 @@ textarea{
 .description p{
   font-size: 1.8em;
   padding: 20px;
-  text-align: justify;
+  text-align: justify;/*this helps to make the content in equal part*/
 }
 .bike{
   width: 40%;
@@ -234,8 +234,8 @@ textarea{
 
 }
 .bike img:hover{
-  transition: 4s;
-  transform: rotateY(180deg);
+  transition: 4s;/*it sets the time to show the animation*/
+  transform: rotateY(180deg);/*it transforms the content in 180 degree and rotate it*/
   opacity: 0.5;
 }
 
@@ -271,10 +271,10 @@ color: rgb(0, 128, 0);
 }
 .copy{
   width: 70%;
-  text-align: center;
+  text-align: center;/*it sets the alignment of the content in the center*/
   padding-top: 5px;
 }
-@media (max-width: 600px){
+@media (max-width: 600px){/*this property is used to make the page responsive*/
 header{
   width: 100%;
   display: flex;
@@ -411,10 +411,6 @@ textarea{
   height: 150px;
   width: 150px;
 }
-
-
-
-
 footer{
   width: 100%;
   display: flex;
