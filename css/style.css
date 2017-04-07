@@ -2,8 +2,6 @@
 Name: Milan Shrestha
 UN ID:16418532
 */
-
-
 body{
   background-size: cover;/*this is for bbody size to make body fit in the screen*/
   margin: 0;/*it keeps margin of the body zero*/
@@ -309,7 +307,7 @@ header{
   width: 30%;
 }
 .home{
-  width: 100;
+  width: 100%;
   display: flex;
   flex-direction: column;
   height:auto;
@@ -427,4 +425,5 @@ footer{
 }
 .copy p{
   font-size: 0.8em;
+}
 }
